@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Crear archivo') {
+      steps {
+        writeFile(file: 'archivo.txt', text: 'Texto del archivo')
+      }
+    }
+
   }
 }
