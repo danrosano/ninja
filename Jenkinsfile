@@ -16,4 +16,7 @@ pipeline {
     }
 
   }
+  environment {
+    minombre = 'Daniel'
+  }
 }
