@@ -15,6 +15,12 @@ pipeline {
       }
     }
 
+    stage('Despedida') {
+      steps {
+        input(message: 'Lastima que terminó', ok: 'Excelente taller')
+      }
+    }
+
   }
   environment {
     minombre = 'Daniel'
